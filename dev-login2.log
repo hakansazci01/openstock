@@ -1,0 +1,32 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 212ms
+ ✓ Ready in 1037ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 1824ms
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET /api/quotes?symbols=DIA 401 in 2500ms
+ GET /api/quotes?symbols=IWM 401 in 2500ms
+ GET /api/quotes?symbols=SPY 401 in 2504ms
+ GET /api/quotes?symbols=QQQ 401 in 2500ms
+ GET /api/quotes?symbols=DIA 401 in 339ms
+ GET /api/quotes?symbols=IWM 401 in 341ms
+ GET /api/quotes?symbols=SPY 401 in 341ms
+ GET /api/quotes?symbols=QQQ 401 in 344ms
+✅ Nodemailer transporter is ready to send emails
+ ✓ Compiled /api/auth/[...all] in 293ms
+MongoDB: Custom DNS settings applied
+ POST /api/auth/sign-in 404 in 1242ms

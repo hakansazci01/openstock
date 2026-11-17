@@ -1,0 +1,162 @@
+﻿
+> Openstock@0.1.0 lint
+> eslint
+
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\__tests__\ai-provider.integration.test.ts
+  1:32  warning  'beforeAll' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\__tests__\ai-provider.test.ts
+  7:8  warning  'AIProviderName' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(marketing)\changelog\page.tsx
+   6:10  warning  'cn' is defined but never used                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+  14:7   warning  'ItemText' is assigned a value but never used                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  39:5   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  56:27  warning  'latest' is assigned a value but never used                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  57:27  warning  'last' is assigned a value but never used                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(marketing)\love\page.tsx
+  42:7   warning  'WALL' is assigned a value but never used                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  63:42  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(marketing)\page.tsx
+  3:8  warning  'PageHero' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(marketing)\sponsor\page.tsx
+  1:24   warning  'HandCoins' is defined but never used           @typescript-eslint/no-unused-vars
+  1:35   warning  'MessageCircle' is defined but never used       @typescript-eslint/no-unused-vars
+  4:10   warning  'DISCORD_URL' is defined but never used         @typescript-eslint/no-unused-vars
+  4:23   warning  'sponsorCheckoutUrl' is defined but never used  @typescript-eslint/no-unused-vars
+  5:10   warning  'ACTIVE_SPONSORS' is defined but never used     @typescript-eslint/no-unused-vars
+  5:111  warning  'tierBorder' is defined but never used          @typescript-eslint/no-unused-vars
+  6:10   warning  'cn' is defined but never used                  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(root)\bots\[id]\page.tsx
+  4:68  warning  'TrendingDown' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\app\(root)\components\ChartSkeleton.tsx
+  1:7  warning  'CardHeader' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\components\MarketLoadingProgress.tsx
+  36:9  error  'marketTimer' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\components\sponsors\SponsorsBand.tsx
+  13:27  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  15:34  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  25:9   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\components\stocks\StockHeader.tsx
+  82:61  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\components\watchlist\CreateAlertModal.tsx
+  4:8  warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\components\watchlist\WatchlistTable.tsx
+  66:69  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\database\models\Bot.ts
+  14:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\hooks\useTradingViewWidget.tsx
+  53:8  warning  React Hook useEffect has a missing dependency: 'state'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\actions\auth.actions.ts
+  9:29  warning  'logWarn' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\backtest.ts
+   22:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   29:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   43:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   74:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  168:66  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\data-fetch.ts
+  90:74  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  94:95  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  95:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\model-portfolios.ts
+  17:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\paper-trading.ts
+  19:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  69:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\queries.ts
+  38:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\bot\strategy.ts
+  149:148  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  183:143  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  215:144  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  245:154  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  270:146  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\browser-notifications.ts
+  26:5  warning  'targetPrice' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\inngest\bot-functions.ts
+  15:14  warning  'event' is defined but never used         @typescript-eslint/no-unused-vars
+  15:29  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  44:29  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\lib\utils.ts
+  308:5  warning  'currentPrice' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\check-env.mjs
+  103:10  warning  'classifyVar' is defined but never used  @typescript-eslint/no-unused-vars
+  192:23  warning  'type' is defined but never used         @typescript-eslint/no-unused-vars
+  220:48  warning  'severity' is defined but never used     @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\fix-alert-modal.mjs
+  23:6  error  Parsing error: Variable declaration expected
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\fix-alert.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\fix-alerts-panel.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\fix-create-alert.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\fix-duplicate.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\remove-all-sponsors.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\remove-page-sponsors.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\remove-sidebar-sponsors.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\remove-sponsors-final.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\test-signin.mjs
+  4:8  warning  'bcrypt' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\verify-admin.mjs
+  1:23  warning  'ObjectId' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\verify-watchlist.mjs
+   3:10  warning  'addToWatchlist' is defined but never used               @typescript-eslint/no-unused-vars
+   3:26  warning  'removeFromWatchlist' is defined but never used          @typescript-eslint/no-unused-vars
+   3:47  warning  'getUserWatchlist' is defined but never used             @typescript-eslint/no-unused-vars
+   3:65  warning  'isStockInWatchlist' is defined but never used           @typescript-eslint/no-unused-vars
+   4:10  warning  'createAlert' is defined but never used                  @typescript-eslint/no-unused-vars
+   4:23  warning  'getUserAlerts' is defined but never used                @typescript-eslint/no-unused-vars
+   8:7   warning  'MOCK_USER_ID' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  10:7   warning  'COMPANY' is assigned a value but never used             @typescript-eslint/no-unused-vars
+  14:10  warning  'jest' is defined but never used                         @typescript-eslint/no-unused-vars
+  16:7   warning  'mockRevalidatePath' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  40:16  warning  'verifyDB' is defined but never used                     @typescript-eslint/no-unused-vars
+
+C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\scripts\write-page-part1.mjs
+  59:21  error  Parsing error: ',' expected
+
+✖ 77 problems (31 errors, 46 warnings)
+

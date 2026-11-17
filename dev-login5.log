@@ -1,0 +1,30 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 223ms
+ ✓ Ready in 1047ms
+ ○ Compiling /api/auth/[...all] ...
+ ✓ Compiled /api/auth/[...all] in 1534ms
+MongoDB: Custom DNS settings applied
+✅ Nodemailer transporter is ready to send emails
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ POST /api/auth/sign-in 404 in 2781ms
+ POST /api/auth/sign-in/email 400 in 287ms
+MongoDB: Custom DNS settings applied
+ POST /api/auth/sign-in/email 400 in 278ms
+MongoDB: Custom DNS settings applied
+[2m2026-11-12T21:26:21.780Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+ POST /api/auth/sign-in/email 401 in 345ms
+MongoDB: Custom DNS settings applied
+[2m2026-11-12T21:29:10.526Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+ POST /api/auth/sign-in/email 401 in 350ms
+MongoDB: Custom DNS settings applied

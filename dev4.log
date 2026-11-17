@@ -1,0 +1,21 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.21.96.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 192ms
+ ✓ Ready in 951ms
+ ○ Compiling /api/auth/[...all] ...
+ ✓ Compiled /api/auth/[...all] in 1325ms
+MongoDB: Custom DNS settings applied
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+MongoDB: Custom DNS settings applied
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+MongoDB Connected mongodb://***@127.0.0.1:27017/openstock?authSource=admin in development
+ POST /api/auth/sign-in 404 in 2509ms
+^C^C

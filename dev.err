@@ -1,0 +1,26 @@
+(node:22240) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:14708) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:13144) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error fetching stock metrics for THYAO.IS Error: Fetch failed 403: {"error":"You don't have access to this resource."}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getStockMetrics (lib\actions\finnhub.actions.ts:215:22)
+    at async DividendYield (app\(root)\stocks\[symbol]\page.tsx:31:27)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+ ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <form action={function action} className=... children=...>
+               ^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '3955368096'
+}
+^C^C

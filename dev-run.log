@@ -1,0 +1,62 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 259ms
+ ✓ Ready in 1282ms
+ ○ Compiling / ...
+(node:9488) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 3.2s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 7200ms
+✅ Nodemailer transporter is ready to send emails
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 717ms
+ GET /sign-in 200 in 1486ms
+ ○ Compiling /sign-up ...
+ ✓ Compiled /sign-up in 507ms
+ GET /sign-up 200 in 605ms
+ GET / 200 in 143ms
+ GET /sign-in 200 in 91ms
+[2m2026-11-12T16:29:28.452Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+Sign in failed [Error [APIError]: Invalid email or password] {
+  status: 'UNAUTHORIZED',
+  body: [Object],
+  headers: {},
+  statusCode: 401
+}
+ POST /sign-in 200 in 152ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 605ms
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=QQQ 401 in 1000ms
+ GET /api/quotes?symbols=DIA 401 in 1002ms
+ GET /api/quotes?symbols=IWM 401 in 1003ms
+ GET /api/quotes?symbols=SPY 401 in 1005ms
+✅ Nodemailer transporter is ready to send emails
+[2m2026-11-12T16:29:45.182Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+Sign in failed [Error [APIError]: Invalid email or password] {
+  status: 'UNAUTHORIZED',
+  body: [Object],
+  headers: {},
+  statusCode: 401
+}
+ POST /sign-in 200 in 134ms
+ GET /api/quotes?symbols=SPY 401 in 346ms
+ GET /api/quotes?symbols=DIA 401 in 347ms
+ GET /api/quotes?symbols=QQQ 401 in 348ms
+ GET /api/quotes?symbols=IWM 401 in 349ms
+ GET /api/quotes?symbols=SPY 401 in 307ms
+ GET /api/quotes?symbols=QQQ 401 in 308ms
+ GET /api/quotes?symbols=DIA 401 in 309ms
+ GET /api/quotes?symbols=IWM 401 in 309ms
+^C

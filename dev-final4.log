@@ -1,0 +1,1600 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 235ms
+ ✓ Ready in 1231ms
+ ○ Compiling / ...
+(node:26932) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 3.2s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 8481ms
+✅ Nodemailer transporter is ready to send emails
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 929ms
+ GET /sign-in 200 in 1680ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 979ms
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=BINANCE%3ASOLUSDT 200 in 1793ms
+ GET /api/quotes?symbols=BINANCE%3AETHUSDT 200 in 1799ms
+ GET /api/quotes?symbols=BINANCE%3ABTCUSDT 200 in 1942ms
+ GET /api/quotes?symbols=BINANCE%3ABNBUSDT 200 in 1943ms
+✅ Nodemailer transporter is ready to send emails
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 750ms
+ GET /dashboard 200 in 1239ms
+ ✓ Compiled /favicon.ico in 113ms
+ GET /favicon.ico?favicon.0d8d4eae.ico 200 in 382ms
+ GET /dashboard?market=sa 200 in 523ms
+ GET /dashboard?market=tr 200 in 67ms
+ GET /dashboard?market=tr 200 in 181ms
+ GET /favicon.ico?favicon.0d8d4eae.ico 200 in 287ms
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./components/landing/ProductPreview.tsx
+    ./app/(auth)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./components/landing/ProductPreview.tsx
+    ./app/(auth)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./components/landing/ProductPreview.tsx
+    ./app/(auth)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./components/landing/ProductPreview.tsx
+    ./app/(auth)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:15:24
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 13 |[39m     marketQuotesConfig[33m,[39m
+ [90m 14 |[39m     timelineConfig[33m,[39m
+[31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+ [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m getMarket[33m,[39m isMarketOpen[33m,[39m marketForCountry } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m"@/lib/better-auth/auth"[39m[33m;[39m
+ [90m 18 |[39m
+ [90m 19 |[39m [36mconst[39m scriptUrl [33m=[39m [32m`https://s3.tradingview.com/external-embedding/embed-widget-`[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/IndexPulse.tsx:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m"@/lib/actions/yahoo.actions"[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { singleQuoteConfig } [36mfrom[39m [32m"@/lib/constants"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { getMarket[33m,[39m type [33mMarket[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m [36mconst[39m [33mSINGLE_QUOTE[39m [33m=[39m [32m'https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js'[39m[33m;[39m
+ [90m 10 |[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/MarketSwitcher.tsx:4:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mMARKETS[39m[33m,[39m [33mMARKET_COOKIE[39m[33m,[39m type [33mMarketId[39m } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [90m// Market chips for the dashboard. The choice is remembered in a cookie so the server renders it next time.[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/MarketSwitcher.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./components/shell/Sidebar.tsx:11:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  9 |[39m [36mimport[39m { signOut } [36mfrom[39m [32m"@/lib/actions/auth.actions"[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m { getMarket } [36mfrom[39m [32m"@/lib/markets"[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m type [33mSidebarProps[39m [33m=[39m {
+ [90m 14 |[39m     user[33m:[39m [33mUser[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/shell/Sidebar.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Client Component Browser]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/shell/Sidebar.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Client Component SSR]
+    ./components/shell/AppShell.tsx [Server Component]
+    ./app/(root)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./lib/actions/finnhub.actions.ts:7:1
+Module not found: Can't resolve '@/lib/markets'
+[0m [90m  5 |[39m [36mimport[39m { cache } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mQUOTE_TTL_SECONDS[39m } [36mfrom[39m [32m'@/lib/market-data'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { hasFinnhubQuotes } [36mfrom[39m [32m'@/lib/markets'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { getYahooDailyQuotes } [36mfrom[39m [32m'@/lib/actions/yahoo.actions'[39m[33m;[39m
+ [90m  9 |[39m [36mimport[39m { isTadawulSymbol } [36mfrom[39m [32m'@/lib/yahoo'[39m[33m;[39m
+ [90m 10 |[39m [36mimport[39m { getSession } [36mfrom[39m [32m'@/lib/better-auth/auth'[39m[33m;[39m[0m
+
+Import map: aliased to relative './lib/markets' inside of [project]/
+
+
+Import traces:
+  #1 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./app/(root)/layout.tsx
+
+  #2 [Server Component]:
+    ./lib/actions/finnhub.actions.ts
+    ./components/IndexPulse.tsx
+    ./app/(root)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled in 236ms
+ ✓ Compiled in 235ms
+ ✓ Compiled in 151ms
+ ✓ Compiled in 242ms
+ ✓ Compiled /dashboard in 83ms
+MongoDB: Custom DNS settings applied
+ GET /dashboard?market=tr 200 in 790ms
+✅ Nodemailer transporter is ready to send emails
+ GET /dashboard?market=tr 200 in 1393ms
+ GET /favicon.ico?favicon.0d8d4eae.ico 200 in 324ms
+ ✓ Compiled in 164ms
+ ✓ Compiled in 152ms
+ ✓ Compiled in 198ms
+ ✓ Compiled /dashboard in 42ms
+MongoDB: Custom DNS settings applied
+ GET /dashboard?market=tr 200 in 373ms
+ GET /dashboard?market=tr 200 in 258ms
+✅ Nodemailer transporter is ready to send emails
+ ✓ Compiled /dashboard in 34ms
+MongoDB: Custom DNS settings applied
+ GET /dashboard?market=tr 200 in 358ms
+ GET /dashboard?market=tr 200 in 222ms
+✅ Nodemailer transporter is ready to send emails
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ct9fp3qlvl'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ct9fp3qlvl'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1401ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.euabe89uuxg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.euabe89uuxg'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ct9fp3qlvl'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ct9fp3qlvl'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.09k1304oe51'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.09k1304oe51'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.w7hp4g82m'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.w7hp4g82m'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ozr0am8a6cm'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ozr0am8a6cm'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.dz7fkmux6zc'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.dz7fkmux6zc'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ud7pjngn2nc'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ud7pjngn2nc'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.dz7fkmux6zc'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.dz7fkmux6zc'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.n6u7qvct7p'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.n6u7qvct7p'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.4o8nlelpk6i'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.4o8nlelpk6i'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.qkklt81ix9m'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.qkklt81ix9m'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.yuuz9wl2r0i'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.yuuz9wl2r0i'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.1ck96ba2pifi'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.1ck96ba2pifi'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.yuuz9wl2r0i'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.yuuz9wl2r0i'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.lni7cha8en'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.lni7cha8en'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.h8dc2t2ituq'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.h8dc2t2ituq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.up3f1fapbo'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.up3f1fapbo'
+}
+ ✓ Compiled in 238ms
+ ✓ Compiled in 138ms
+ ✓ Compiled in 437ms
+^C

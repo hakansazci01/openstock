@@ -1,0 +1,347 @@
+(node:12700) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+[2m2026-11-09T20:54:34.908Z[0m [31mERROR[0m [1m[Better Auth]:[0m State not found undefined
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+⚠️ Email credentials are not configured. Welcome and news summary emails are disabled until NODEMAILER_EMAIL and NODEMAILER_PASSWORD are set.
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for QQQ Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for SPY Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for DIA Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for IWM Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+ ⨯ ./app/(root)/dashboard/page.tsx:8:40
+Parsing ecmascript source code failed
+[0m [90m  6 |[39m [36mimport[39m [33mDataFreshness[39m [36mfrom[39m [32m"@/components/DataFreshness"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m [33mPiyasalarwitcher[39m [36mfrom[39m [32m"@/components/Piyasalarwitcher"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m [33mSaudiFiyatlarTable[39m[33m,[39m { [33mSaudiHareket[39m edenler } [36mfrom[39m [32m"@/components/SaudiFiyatlar"[39m[33m;[39m
+ [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m {
+ [90m 10 |[39m     [33mCRYPTO_HEATMAP_CONFIG[39m[33m,[39m
+ [90m 11 |[39m     [33mSTOCK_HEATMAP_CONFIG[39m[33m,[39m[0m
+
+Expected ',', got 'edenler'
+
+
+ ⨯ ./app/(root)/dashboard/page.tsx:8:40
+Parsing ecmascript source code failed
+[0m [90m  6 |[39m [36mimport[39m [33mDataFreshness[39m [36mfrom[39m [32m"@/components/DataFreshness"[39m[33m;[39m
+ [90m  7 |[39m [36mimport[39m [33mPiyasalarwitcher[39m [36mfrom[39m [32m"@/components/Piyasalarwitcher"[39m[33m;[39m
+[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m [33mSaudiFiyatlarTable[39m[33m,[39m { [33mSaudiHareket[39m edenler } [36mfrom[39m [32m"@/components/SaudiFiyatlar"[39m[33m;[39m
+ [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m [36mimport[39m {
+ [90m 10 |[39m     [33mCRYPTO_HEATMAP_CONFIG[39m[33m,[39m
+ [90m 11 |[39m     [33mSTOCK_HEATMAP_CONFIG[39m[33m,[39m[0m
+
+Expected ',', got 'edenler'
+
+

@@ -1,0 +1,447 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 311ms
+ ✓ Ready in 1550ms
+ ○ Compiling /sign-in ...
+(node:32676) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled /sign-in in 3.5s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+✅ Nodemailer transporter is ready to send emails
+ GET /sign-in 200 in 7895ms
+ ✓ Compiled / in 486ms
+ GET / 200 in 860ms
+ ✓ Compiled /sign-up in 435ms
+ GET /sign-up 200 in 530ms
+ ✓ Compiled /about in 393ms
+ GET /about 200 in 491ms
+ ✓ Compiled /help in 351ms
+ GET /help 200 in 445ms
+ ✓ Compiled /changelog in 320ms
+ GET /changelog 200 in 447ms
+ ✓ Compiled /sponsor in 311ms
+ GET /sponsor 200 in 416ms
+ ✓ Compiled /terms in 371ms
+ GET /terms 200 in 473ms
+ GET / 200 in 221ms
+ GET /sign-in 200 in 78ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 623ms
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=DIA 401 in 1007ms
+ GET /api/quotes?symbols=QQQ 401 in 1008ms
+ GET /api/quotes?symbols=SPY 401 in 1009ms
+ GET /api/quotes?symbols=IWM 401 in 1011ms
+✅ Nodemailer transporter is ready to send emails
+ GET /api/quotes?symbols=SPY 401 in 319ms
+ GET /api/quotes?symbols=DIA 401 in 319ms
+ GET /api/quotes?symbols=QQQ 401 in 320ms
+ GET /api/quotes?symbols=IWM 401 in 320ms
+ GET /api/quotes?symbols=SPY 401 in 319ms
+ GET /api/quotes?symbols=DIA 401 in 320ms
+ GET /api/quotes?symbols=IWM 401 in 321ms
+ GET /api/quotes?symbols=QQQ 401 in 328ms
+ GET /api/quotes?symbols=SPY 401 in 322ms
+ GET /api/quotes?symbols=IWM 401 in 323ms
+ GET /api/quotes?symbols=QQQ 401 in 324ms
+ GET /api/quotes?symbols=DIA 401 in 325ms
+ GET /api/quotes?symbols=SPY 401 in 315ms
+ GET /api/quotes?symbols=QQQ 401 in 316ms
+ GET /api/quotes?symbols=IWM 401 in 316ms
+ GET /api/quotes?symbols=DIA 401 in 317ms
+ GET /api/quotes?symbols=SPY 401 in 343ms
+ GET /api/quotes?symbols=QQQ 401 in 349ms
+ GET /api/quotes?symbols=IWM 401 in 350ms
+ GET /api/quotes?symbols=DIA 401 in 351ms
+ GET /api/quotes?symbols=SPY 401 in 329ms
+ GET /api/quotes?symbols=DIA 401 in 329ms
+ GET /api/quotes?symbols=QQQ 401 in 332ms
+ GET /api/quotes?symbols=IWM 401 in 333ms
+ GET /api/quotes?symbols=SPY 401 in 305ms
+ GET /api/quotes?symbols=QQQ 401 in 305ms
+ GET /api/quotes?symbols=DIA 401 in 305ms
+ GET /api/quotes?symbols=IWM 401 in 306ms
+ GET /api/quotes?symbols=SPY 401 in 373ms
+ GET /api/quotes?symbols=IWM 401 in 380ms
+ GET /api/quotes?symbols=QQQ 401 in 380ms
+ GET /api/quotes?symbols=DIA 401 in 381ms
+   Reload env: .env
+MongoDB: Custom DNS settings applied
+ GET /sign-in 200 in 804ms
+❌ Nodemailer transporter verification failed: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4ba08e57504sm116104535e9.2 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4ba08e57504sm116104535e9.2 - gsmtp',
+  responseCode: 535,
+  permanent: true,
+  command: 'AUTH PLAIN'
+}
+ ✓ Compiled /sign-in in 39ms
+MongoDB: Custom DNS settings applied
+⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)
+⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)
+⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)
+⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)
+Error fetching quote for SPY Error: No Finnhub API key configured
+    at fetchWithKeyPool (lib\actions\finnhub.actions.ts:111:15)
+    at <unknown> (lib\actions\finnhub.actions.ts:132:31)
+    at withSlot (lib\actions\finnhub.actions.ts:91:22)
+    at request (lib\actions\finnhub.actions.ts:131:19)
+    at refresh (lib\actions\finnhub.actions.ts:153:27)
+    at fetchJSON (lib\actions\finnhub.actions.ts:170:69)
+    at getQuote (lib\actions\finnhub.actions.ts:195:22)
+    at <unknown> (lib\actions\finnhub.actions.ts:205:80)
+    at Array.map (<anonymous>)
+    at getLiveQuotes (lib\actions\finnhub.actions.ts:205:46)
+    at IndexPulse (components\IndexPulse.tsx:23:55)
+  109 |         // No real key configured: fail gracefully instead of crashing pages
+  110 |         /* eslint-disable */console.warn(...oo_tr(`510595016_110_8_110_137_8`,'⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)'));
+> 111 |         throw new Error('No Finnhub API key configured');
+      |               ^
+  112 |     }
+  113 |     let res: Response | null = null;
+  114 |     for (let attempt = 0; attempt < validKeys.length; attempt++) {
+Error fetching quote for QQQ Error: No Finnhub API key configured
+    at fetchWithKeyPool (lib\actions\finnhub.actions.ts:111:15)
+    at <unknown> (lib\actions\finnhub.actions.ts:132:31)
+    at withSlot (lib\actions\finnhub.actions.ts:91:22)
+    at request (lib\actions\finnhub.actions.ts:131:19)
+    at refresh (lib\actions\finnhub.actions.ts:153:27)
+    at fetchJSON (lib\actions\finnhub.actions.ts:170:69)
+    at getQuote (lib\actions\finnhub.actions.ts:195:22)
+    at <unknown> (lib\actions\finnhub.actions.ts:205:80)
+    at Array.map (<anonymous>)
+    at getLiveQuotes (lib\actions\finnhub.actions.ts:205:46)
+    at IndexPulse (components\IndexPulse.tsx:23:55)
+  109 |         // No real key configured: fail gracefully instead of crashing pages
+  110 |         /* eslint-disable */console.warn(...oo_tr(`510595016_110_8_110_137_8`,'⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)'));
+> 111 |         throw new Error('No Finnhub API key configured');
+      |               ^
+  112 |     }
+  113 |     let res: Response | null = null;
+  114 |     for (let attempt = 0; attempt < validKeys.length; attempt++) {
+Error fetching quote for DIA Error: No Finnhub API key configured
+    at fetchWithKeyPool (lib\actions\finnhub.actions.ts:111:15)
+    at <unknown> (lib\actions\finnhub.actions.ts:132:31)
+    at withSlot (lib\actions\finnhub.actions.ts:91:22)
+    at async getQuote (lib\actions\finnhub.actions.ts:195:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:205:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  109 |         // No real key configured: fail gracefully instead of crashing pages
+  110 |         /* eslint-disable */console.warn(...oo_tr(`510595016_110_8_110_137_8`,'⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)'));
+> 111 |         throw new Error('No Finnhub API key configured');
+      |               ^
+  112 |     }
+  113 |     let res: Response | null = null;
+  114 |     for (let attempt = 0; attempt < validKeys.length; attempt++) {
+Error fetching quote for IWM Error: No Finnhub API key configured
+    at fetchWithKeyPool (lib\actions\finnhub.actions.ts:111:15)
+    at <unknown> (lib\actions\finnhub.actions.ts:132:31)
+    at withSlot (lib\actions\finnhub.actions.ts:91:22)
+    at async getQuote (lib\actions\finnhub.actions.ts:195:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:205:20)
+    at async IndexPulse (components\IndexPulse.tsx:23:36)
+  109 |         // No real key configured: fail gracefully instead of crashing pages
+  110 |         /* eslint-disable */console.warn(...oo_tr(`510595016_110_8_110_137_8`,'⚠️ No valid Finnhub API key configured. Set FINNHUB_API_KEY in .env (get one free at https://finnhub.io/register)'));
+> 111 |         throw new Error('No Finnhub API key configured');
+      |               ^
+  112 |     }
+  113 |     let res: Response | null = null;
+  114 |     for (let attempt = 0; attempt < validKeys.length; attempt++) {
+ GET /sign-in 200 in 362ms
+ GET /sign-in 200 in 248ms
+❌ Nodemailer transporter verification failed: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-49c5f78214dsm4596f8f.25 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-49c5f78214dsm4596f8f.25 - gsmtp',
+  responseCode: 535,
+  permanent: true,
+  command: 'AUTH PLAIN'
+}
+ ✓ Compiled /sign-in in 41ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.udjnhwuo0y'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.udjnhwuo0y'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.5s
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.dipjgs0m9u7'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.dipjgs0m9u7'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.udjnhwuo0y'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.udjnhwuo0y'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.sc4vyrb9lig'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.sc4vyrb9lig'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.7vorcnlc8sa'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.7vorcnlc8sa'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.me44dztcrmq'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.me44dztcrmq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ka36lnsiuss'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ka36lnsiuss'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.me44dztcrmq'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.me44dztcrmq'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ypzyurssyn'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ypzyurssyn'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.fzgnuq5dxlv'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.fzgnuq5dxlv'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.9pwp08imync'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.9pwp08imync'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.d33uv3myu5t'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.d33uv3myu5t'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.9pwp08imync'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.9pwp08imync'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.af5lb7ud0ud'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.af5lb7ud0ud'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.7i9o9sovrc7'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.7i9o9sovrc7'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.6maufs0prct'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.6maufs0prct'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.sf765cyfn9o'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.sf765cyfn9o'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.6maufs0prct'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.6maufs0prct'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.chzatsfow3h'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.chzatsfow3h'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.98wiuh6ytp5'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.98wiuh6ytp5'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.8uwnyrprudl'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.8uwnyrprudl'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.3ik3tg1ihqa'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.3ik3tg1ihqa'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.8uwnyrprudl'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.8uwnyrprudl'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.hz8km7syqpc'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.hz8km7syqpc'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.3h4fmfzfygp'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.3h4fmfzfygp'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.6v3t6agabxh'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.6v3t6agabxh'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.dyx60841ss'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.dyx60841ss'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.6v3t6agabxh'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.6v3t6agabxh'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.vamkmed6md'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.vamkmed6md'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ynb505cjk9'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ynb505cjk9'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.nezwgdirfdb'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.nezwgdirfdb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.mnixynzgqr'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.mnixynzgqr'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.nezwgdirfdb'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.nezwgdirfdb'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.w8rujjdzngk'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.w8rujjdzngk'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.029rxuh82kml'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.029rxuh82kml'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.3ova22eo1tk'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.3ova22eo1tk'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.pu4a8qdamfn'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.pu4a8qdamfn'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.3ova22eo1tk'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.3ova22eo1tk'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.nfh3kcjysb'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.nfh3kcjysb'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.0bn6bnlx2zl8'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.0bn6bnlx2zl8'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.5kq09ohfbyg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.5kq09ohfbyg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.67nvi7zrbkd'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.67nvi7zrbkd'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.5kq09ohfbyg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.5kq09ohfbyg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.wkm9voebc8'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.wkm9voebc8'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.pntbc8w4zpn'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.pntbc8w4zpn'
+}
+ ✓ Compiled in 176ms
+   Reload env: .env

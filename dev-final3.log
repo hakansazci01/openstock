@@ -1,0 +1,77 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 215ms
+ ✓ Ready in 1130ms
+ ○ Compiling / ...
+(node:28120) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 3.2s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 7605ms
+✅ Nodemailer transporter is ready to send emails
+ GET / 200 in 167ms
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 742ms
+ GET /sign-in 200 in 1446ms
+[2m2026-11-12T20:51:00.474Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+Sign in failed [Error [APIError]: Invalid email or password] {
+  status: 'UNAUTHORIZED',
+  body: [Object],
+  headers: {},
+  statusCode: 401
+}
+ POST /sign-in 200 in 185ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 637ms
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=QQQ 401 in 1054ms
+ GET /api/quotes?symbols=IWM 401 in 1057ms
+ GET /api/quotes?symbols=SPY 401 in 1059ms
+ GET /api/quotes?symbols=DIA 401 in 1060ms
+✅ Nodemailer transporter is ready to send emails
+ GET /api/quotes?symbols=SPY 401 in 331ms
+ GET /api/quotes?symbols=IWM 401 in 333ms
+ GET /api/quotes?symbols=DIA 401 in 335ms
+ GET /api/quotes?symbols=QQQ 401 in 337ms
+[2m2026-11-12T20:51:15.326Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+Sign in failed [Error [APIError]: Invalid email or password] {
+  status: 'UNAUTHORIZED',
+  body: [Object],
+  headers: {},
+  statusCode: 401
+}
+ POST /sign-in 200 in 133ms
+ GET /api/quotes?symbols=SPY 401 in 321ms
+ GET /api/quotes?symbols=DIA 401 in 322ms
+ GET /api/quotes?symbols=QQQ 401 in 326ms
+ GET /api/quotes?symbols=IWM 401 in 330ms
+ GET /api/quotes?symbols=SPY 401 in 336ms
+ GET /api/quotes?symbols=DIA 401 in 338ms
+ GET /api/quotes?symbols=QQQ 401 in 339ms
+ GET /api/quotes?symbols=IWM 401 in 340ms
+[2m2026-11-12T20:51:22.654Z[0m [33mWARN[0m [1m[Better Auth]:[0m User not found
+Sign in failed [Error [APIError]: Invalid email or password] {
+  status: 'UNAUTHORIZED',
+  body: [Object],
+  headers: {},
+  statusCode: 401
+}
+ POST /sign-in 200 in 146ms
+ GET /api/quotes?symbols=SPY 401 in 399ms
+ GET /api/quotes?symbols=IWM 401 in 399ms
+ GET /api/quotes?symbols=QQQ 401 in 401ms
+ GET /api/quotes?symbols=DIA 401 in 403ms
+ GET /api/quotes?symbols=SPY 401 in 353ms
+ GET /api/quotes?symbols=QQQ 401 in 354ms
+ GET /api/quotes?symbols=IWM 401 in 356ms
+ GET /api/quotes?symbols=DIA 401 in 358ms

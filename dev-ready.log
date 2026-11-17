@@ -1,0 +1,35 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 223ms
+ ✓ Ready in 1105ms
+ ○ Compiling / ...
+(node:23184) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 3.4s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 8988ms
+✅ Nodemailer transporter is ready to send emails
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 839ms
+ GET /sign-in 200 in 1659ms
+ ○ Compiling /sign-up ...
+ ✓ Compiled /sign-up in 679ms
+ GET /sign-up 200 in 869ms
+ ✓ Compiled /about in 373ms
+ GET /about 200 in 479ms
+ ✓ Compiled /help in 322ms
+ GET /help 200 in 433ms
+ ✓ Compiled /changelog in 448ms
+ GET /changelog 200 in 609ms
+ ✓ Compiled /sponsor in 404ms
+ GET /sponsor 200 in 538ms

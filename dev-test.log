@@ -1,0 +1,75 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 307ms
+ ✓ Ready in 1559ms
+ ○ Compiling / ...
+(node:24908) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled / in 7.1s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 15091ms
+✅ Nodemailer transporter is ready to send emails
+ GET / 200 in 299ms
+ ○ Compiling /sign-up ...
+ ✓ Compiled /sign-up in 1048ms
+ GET /sign-up 200 in 1700ms
+ ✓ Compiled /sign-in in 397ms
+ GET /sign-in 200 in 478ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 604ms
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=SPY 401 in 1020ms
+ GET /api/quotes?symbols=IWM 401 in 1022ms
+ GET /api/quotes?symbols=QQQ 401 in 1032ms
+ GET /api/quotes?symbols=DIA 401 in 1033ms
+✅ Nodemailer transporter is ready to send emails
+ GET /api/quotes?symbols=SPY 401 in 317ms
+ GET /api/quotes?symbols=QQQ 401 in 321ms
+ GET /api/quotes?symbols=DIA 401 in 322ms
+ GET /api/quotes?symbols=IWM 401 in 324ms
+ GET /api/quotes?symbols=SPY 401 in 356ms
+ GET /api/quotes?symbols=QQQ 401 in 357ms
+ GET /api/quotes?symbols=IWM 401 in 358ms
+ GET /api/quotes?symbols=DIA 401 in 359ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.lpe8d9qeslo'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.lpe8d9qeslo'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1291ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.7nj5at1w2ov'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.7nj5at1w2ov'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.lpe8d9qeslo'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.lpe8d9qeslo'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.0kcxeoohmqi'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.0kcxeoohmqi'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\hakan\OneDrive\Desktop\OpenStock-main\OpenStock-main\.next\static\development\_buildManifest.js.tmp.ekpjd57j2ma'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\hakan\\OneDrive\\Desktop\\OpenStock-main\\OpenStock-main\\.next\\static\\development\\_buildManifest.js.tmp.ekpjd57j2ma'
+}

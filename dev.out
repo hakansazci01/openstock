@@ -1,0 +1,94 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.192.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 193ms
+ ✓ Ready in 962ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+ GET / 200 in 6098ms
+✅ Nodemailer transporter is ready to send emails
+ GET / 200 in 123ms
+   Reload env: .env
+   Reload env: .env
+   Reload env: .env
+MongoDB: Custom DNS settings applied
+ GET / 200 in 380ms
+✅ Nodemailer transporter is ready to send emails
+ GET / 200 in 115ms
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 826ms
+ GET /sign-in 200 in 1483ms
+ ✓ Compiled /sign-up in 400ms
+ GET /sign-up 200 in 491ms
+ ✓ Compiled /about in 358ms
+ GET /about 200 in 462ms
+ ✓ Compiled /help in 315ms
+ GET /help 200 in 395ms
+ ✓ Compiled /api-docs in 279ms
+ GET /api-docs 200 in 374ms
+ ✓ Compiled /changelog in 245ms
+ GET /changelog 200 in 353ms
+ ✓ Compiled /terms in 285ms
+ GET /terms 200 in 373ms
+ ✓ Compiled /love in 466ms
+ GET /love 200 in 594ms
+ ✓ Compiled /compare in 234ms
+ GET /compare 200 in 308ms
+ ✓ Compiled /s in 235ms
+ GET /s 200 in 549ms
+ ✓ Compiled /sponsor in 238ms
+ GET /sponsor 200 in 325ms
+ ○ Compiling /api/auth/[...all] ...
+ ✓ Compiled /api/auth/[...all] in 791ms
+MongoDB: Custom DNS settings applied
+✅ Nodemailer transporter is ready to send emails
+MongoDB: Custom DNS settings applied
+ POST /api/auth/sign-in/email 200 in 1886ms
+ ✓ Compiled /dashboard in 441ms
+ GET /dashboard 200 in 585ms
+ ✓ Compiled /watchlist in 446ms
+ GET /watchlist 200 in 573ms
+ ✓ Compiled /stocks/[symbol] in 376ms
+MongoDB: Custom DNS settings applied
+ GET /stocks/AAPL 200 in 1079ms
+ GET /stocks/THYAO.IS 200 in 229ms
+MongoDB: Custom DNS settings applied
+ ✓ Compiled /admin in 365ms
+ GET /admin 200 in 461ms
+ ✓ Compiled /admin/users in 274ms
+✅ Nodemailer transporter is ready to send emails
+ GET /admin/users 200 in 563ms
+ ✓ Compiled /admin/settings in 264ms
+ GET /admin/settings 200 in 356ms
+ ✓ Compiled /api/quotes in 345ms
+ GET /api/quotes?symbols=AAPL 200 in 947ms
+ GET /api/quotes?symbols=TSLA 200 in 414ms
+ GET /api/quotes?symbols=NVDA 200 in 427ms
+ GET /api/quotes?symbols=MSFT 200 in 426ms
+ GET /api/quotes?symbols=GOOGL 200 in 417ms
+ GET /api/quotes?symbols=AMZN 200 in 594ms
+ GET /api/quotes?symbols=META 200 in 427ms
+ GET /api/quotes?symbols=AMD 200 in 435ms
+ GET /api/quotes?symbols=INTC 200 in 426ms
+ GET /api/quotes?symbols=THYAO.IS 200 in 264ms
+ GET /api/quotes?symbols=GARAN.IS 200 in 535ms
+ GET /api/quotes?symbols=AKBNK.IS 200 in 394ms
+ GET /api/quotes?symbols=ASELS.IS 200 in 397ms
+ GET /api/quotes?symbols=TUPRS.IS 200 in 378ms
+ GET /api/quotes?symbols=BIMAS.IS 200 in 396ms
+ GET /api/quotes?symbols=AAPL 200 in 298ms
+ GET /api/quotes?symbols=THYAO.IS 200 in 273ms
+ GET /api/quotes?symbols=GARAN.IS 200 in 277ms
+ GET /api/quotes?symbols=AKBNK.IS 200 in 280ms
+ GET /api/quotes?symbols=ASELS.IS 200 in 283ms
+ GET /api/quotes?symbols=TUPRS.IS 200 in 282ms
+ GET /api/quotes?symbols=BIMAS.IS 200 in 287ms

@@ -1,0 +1,1437 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.122:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 198ms
+ ✓ Ready in 965ms
+ ○ Compiling /api/quotes ...
+ ✓ Compiled /api/quotes in 1451ms
+MongoDB: Custom DNS settings applied
+MongoDB Connected mongodb://127.0.0.1:27017/openstock in development
+[OpenStock][2026-11-14T06:35:32.743Z] ✅ Nodemailer transporter is ready to send emails
+ GET /api/quotes?symbols=AAPL 200 in 2536ms
+ ✓ Compiled /api/signals in 309ms
+[OpenStock][2026-11-14T06:35:38.245Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1182ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 266ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 282ms
+ GET /api/quotes?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ ✓ Compiled /api/auth/[...all] in 223ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+MongoDB: Custom DNS settings applied
+ POST /api/auth/sign-in/email 200 in 1236ms
+ ✓ Compiled /api/bots in 232ms
+ POST /api/bots 201 in 525ms
+ ✓ Compiled /api/bots/[id] in 179ms
+MongoDB: Custom DNS settings applied
+[OpenStock][2026-11-14T06:39:17.897Z] Bot "SmokeBot": AKBNK.IS - BUY sinyali (60.08949152581975%)
+[OpenStock][2026-11-14T06:39:17.899Z] Paper Trading: SmokeBot - AKBNK.IS ALIŞ 28.5919 @ 69.95
+ POST /api/bots/6af802148dfce9742f717ca6 200 in 1411ms
+ POST /api/bots/6af802148dfce9742f717ca6 200 in 280ms
+ POST /api/bots/6af802148dfce9742f717ca6 200 in 281ms
+ POST /api/bots/6af802148dfce9742f717ca6 200 in 283ms
+MongoDB: Custom DNS settings applied
+ GET /api/bots/6af802148dfce9742f717ca6 200 in 278ms
+ ○ Compiling /bots/[id] ...
+MongoDB: Custom DNS settings applied
+(node:8180) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled /bots/[id] in 2.2s
+MongoDB: Custom DNS settings applied
+MongoDB: Custom DNS settings applied
+[OpenStock][2026-11-14T06:39:22.335Z] ✅ Nodemailer transporter is ready to send emails
+ GET /bots/6af802148dfce9742f717ca6 200 in 3094ms
+[OpenStock][2026-11-14T06:39:23.053Z] Error fetching candles for AKBNK.IS {}
+ GET /api/signals?symbols=AKBNK.IS,AAPL 200 in 590ms
+ DELETE /api/bots/6af802148dfce9742f717ca6 200 in 269ms
+ GET /bots/6af802148dfce9742f717ca6 200 in 122ms
+MongoDB: Custom DNS settings applied
+MongoDB: Custom DNS settings applied
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T06:41:37.940Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 830ms
+ GET /api/quotes?symbols=AAPL 200 in 263ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 281ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 267ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 263ms
+ ○ Compiling /watchlist ...
+ ✓ Compiled /watchlist in 692ms
+ GET /watchlist 200 in 1190ms
+[OpenStock][2026-11-14T06:46:48.839Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 764ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 288ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 527ms
+ GET /admin 200 in 728ms
+ GET /api/signals?symbols=AAPL 200 in 138ms
+ GET /watchlist 200 in 175ms
+ GET /api/signals?symbols=AAPL 200 in 318ms
+ GET /api/quotes?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 308ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T06:52:33.810Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 815ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 309ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 303ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T06:58:33.798Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 859ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 287ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 283ms
+ GET /api/quotes?symbols=AAPL 200 in 283ms
+ GET /api/quotes?symbols=AAPL 200 in 269ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+[OpenStock][2026-11-14T07:04:33.820Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 854ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 273ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 282ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 296ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 268ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 288ms
+[OpenStock][2026-11-14T07:10:33.822Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 904ms
+ GET /api/quotes?symbols=AAPL 200 in 267ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 298ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 307ms
+ GET /api/quotes?symbols=AAPL 200 in 296ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 283ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T07:16:33.847Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 951ms
+ GET /api/quotes?symbols=AAPL 200 in 307ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 273ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 304ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T07:22:33.819Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 865ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 268ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 275ms
+[OpenStock][2026-11-14T07:28:33.787Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 892ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 295ms
+ GET /api/quotes?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 283ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 287ms
+[OpenStock][2026-11-14T07:34:33.821Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 842ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 282ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T07:40:33.834Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 839ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 307ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 290ms
+ GET /api/quotes?symbols=AAPL 200 in 281ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 266ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+[OpenStock][2026-11-14T07:46:33.813Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 856ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 264ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 289ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 268ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 265ms
+ GET /api/quotes?symbols=AAPL 200 in 294ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 284ms
+[OpenStock][2026-11-14T07:52:33.797Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 910ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /admin 200 in 209ms
+ GET /api/signals?symbols=AAPL 200 in 165ms
+ GET /watchlist 200 in 192ms
+ GET /api/signals?symbols=AAPL 200 in 287ms
+ GET /api/quotes?symbols=AAPL 200 in 309ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 281ms
+ GET /api/quotes?symbols=AAPL 200 in 278ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/quotes?symbols=AAPL 200 in 279ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/quotes?symbols=AAPL 200 in 276ms
+ GET /api/quotes?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/quotes?symbols=AAPL 200 in 291ms
+ GET /api/quotes?symbols=AAPL 200 in 292ms
+ POST /watchlist 200 in 143ms
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 583ms
+ GET /sign-in 200 in 970ms
+ GET /sign-in 200 in 174ms
+ GET /sign-in 200 in 120ms
+ GET /sign-in 200 in 111ms
+ POST /api/auth/sign-in/email 415 in 278ms
+MongoDB: Custom DNS settings applied
+ GET /sign-in 200 in 116ms
+ POST /api/auth/sign-in/email 200 in 380ms
+MongoDB: Custom DNS settings applied
+ POST /api/auth/sign-in/email 200 in 354ms
+ ✓ Compiled /dashboard in 439ms
+MongoDB: Custom DNS settings applied
+ GET /dashboard 200 in 992ms
+[OpenStock][2026-11-14T09:05:01.597Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 819ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /admin 200 in 163ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+[OpenStock][2026-11-14T09:10:27.082Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 895ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T09:16:27.012Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 859ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+[OpenStock][2026-11-14T09:22:27.074Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 959ms
+ GET /api/signals?symbols=AAPL 200 in 268ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T09:28:27.202Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1053ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ ✓ Compiled /api/debug-session in 216ms
+ GET /api/debug-session 200 in 474ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ ✓ Compiled /api/debug-cookies in 89ms
+ GET /api/debug-cookies 200 in 340ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T09:34:27.093Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 927ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/debug-cookies 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T09:40:27.067Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 910ms
+ GET /api/debug-cookies 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/debug-cookies 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T09:46:27.012Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 918ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/debug-cookies 200 in 285ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T09:52:27.144Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1003ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+[OpenStock][2026-11-14T09:58:27.012Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 905ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T10:04:27.064Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 896ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T10:10:27.020Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 841ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T10:16:27.067Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 955ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T10:22:27.036Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 864ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T10:28:27.050Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 915ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+[OpenStock][2026-11-14T10:34:27.058Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 866ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 282ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T10:40:27.033Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 890ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T10:46:27.090Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 972ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T10:52:27.047Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 869ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T10:58:27.066Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 949ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 310ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T11:04:27.082Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 909ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+[OpenStock][2026-11-14T11:10:27.042Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 885ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T11:16:27.047Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 895ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+[OpenStock][2026-11-14T11:22:27.046Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 854ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 268ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T11:28:27.081Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 959ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 298ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+[OpenStock][2026-11-14T11:34:27.094Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 933ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T11:40:27.088Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 898ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T11:46:27.038Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 907ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T11:52:27.043Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 860ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+[OpenStock][2026-11-14T11:58:27.067Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 908ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T12:04:27.034Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 882ms
+ GET /api/signals?symbols=AAPL 200 in 304ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+[OpenStock][2026-11-14T12:10:27.096Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 935ms
+ GET /api/signals?symbols=AAPL 200 in 286ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T12:16:27.267Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1180ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T12:22:27.111Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 935ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T12:28:27.332Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1160ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T12:34:27.103Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 974ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+[OpenStock][2026-11-14T12:40:27.003Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 826ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+[OpenStock][2026-11-14T12:46:26.995Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 821ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T12:52:27.056Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 871ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T12:58:27.053Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 923ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 310ms
+[OpenStock][2026-11-14T13:04:27.030Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 892ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 283ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T13:10:27.097Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 966ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T13:16:27.067Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 966ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+[OpenStock][2026-11-14T13:22:27.090Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 891ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T13:28:27.041Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 928ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T13:34:27.056Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 937ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T13:40:27.003Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 858ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 287ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T13:46:27.100Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 965ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T13:52:27.063Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 941ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 282ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T13:58:27.077Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 885ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T14:04:27.059Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 891ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T14:10:27.026Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 850ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T14:16:27.080Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 907ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 297ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T14:22:27.069Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 978ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T14:28:27.055Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 895ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+[OpenStock][2026-11-14T14:34:27.073Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 889ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+[OpenStock][2026-11-14T14:40:27.072Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 911ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+[OpenStock][2026-11-14T14:46:27.018Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 865ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 284ms
+[OpenStock][2026-11-14T14:52:27.076Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 954ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+[OpenStock][2026-11-14T14:58:27.101Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 920ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+[OpenStock][2026-11-14T15:04:27.046Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 929ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T15:10:27.061Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 992ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T15:16:27.042Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 927ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+[OpenStock][2026-11-14T15:22:27.360Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1216ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T15:28:27.033Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 902ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T15:34:27.034Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 939ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T15:40:27.070Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 958ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T15:46:27.078Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 994ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+[OpenStock][2026-11-14T15:52:27.084Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 941ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+[OpenStock][2026-11-14T15:58:27.080Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 904ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 311ms
+[OpenStock][2026-11-14T16:04:27.268Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1118ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T16:10:27.096Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 912ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T16:16:27.059Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1183ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 308ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T16:22:27.157Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 999ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T16:28:27.058Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 867ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T16:34:27.031Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 863ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T16:40:27.142Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1065ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T16:46:27.027Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 858ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T16:52:27.044Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 886ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 261ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+[OpenStock][2026-11-14T16:58:27.030Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 911ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T17:04:27.077Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 953ms
+ GET /api/signals?symbols=AAPL 200 in 261ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T17:10:27.085Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 918ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+[OpenStock][2026-11-14T17:16:27.075Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 935ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T17:22:27.097Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 991ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+[OpenStock][2026-11-14T17:28:27.087Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 989ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T17:34:27.072Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 907ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 295ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T17:40:27.000Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 898ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 304ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T17:46:27.087Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 963ms
+ GET /api/signals?symbols=AAPL 200 in 286ms
+ GET /api/signals?symbols=AAPL 200 in 266ms
+ GET /api/signals?symbols=AAPL 200 in 304ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 261ms
+[OpenStock][2026-11-14T17:52:27.059Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 901ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 282ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T17:58:27.068Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 890ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T18:04:27.088Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 956ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+[OpenStock][2026-11-14T18:10:27.067Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 926ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T18:16:27.015Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 906ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 296ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T18:22:27.079Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 888ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 309ms
+ GET /api/signals?symbols=AAPL 200 in 294ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T18:28:27.080Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 968ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 282ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T18:34:27.080Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 920ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 280ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T18:40:27.056Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 948ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T18:46:27.022Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 906ms
+ GET /api/signals?symbols=AAPL 200 in 303ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T18:52:27.110Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 987ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T18:58:27.037Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 870ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 303ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T19:04:27.024Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 970ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+[OpenStock][2026-11-14T19:10:27.057Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1086ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+[OpenStock][2026-11-14T19:16:27.094Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 926ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 281ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 307ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+[OpenStock][2026-11-14T19:22:27.230Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1064ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ POST /api/auth/sign-in/email 403 in 281ms
+MongoDB: Custom DNS settings applied
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T19:28:27.020Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 860ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ POST /api/auth/sign-in/email 200 in 342ms
+MongoDB: Custom DNS settings applied
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T19:34:27.034Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 952ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 272ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ POST /api/auth/sign-in/email 403 in 281ms
+MongoDB: Custom DNS settings applied
+ GET /api/signals?symbols=AAPL 200 in 288ms
+[OpenStock][2026-11-14T19:40:27.083Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 942ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+[OpenStock][2026-11-14T19:46:27.029Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 849ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+[OpenStock][2026-11-14T19:52:27.077Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1010ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 261ms
+[OpenStock][2026-11-14T19:58:27.075Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 908ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 287ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T20:04:27.096Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 956ms
+ GET /api/signals?symbols=AAPL 200 in 303ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 265ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T20:10:27.109Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 972ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+[OpenStock][2026-11-14T20:16:27.028Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 897ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+[OpenStock][2026-11-14T20:22:27.024Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 887ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T20:28:27.044Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 897ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+[OpenStock][2026-11-14T20:34:27.063Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 894ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T20:40:27.092Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 992ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 298ms
+ GET /api/signals?symbols=AAPL 200 in 273ms
+[OpenStock][2026-11-14T20:46:27.028Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 890ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+[OpenStock][2026-11-14T20:52:27.106Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 944ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 263ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T20:58:27.084Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 961ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 304ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+[OpenStock][2026-11-14T21:04:27.209Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1024ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+[OpenStock][2026-11-14T21:10:27.073Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 915ms
+ GET /api/signals?symbols=AAPL 200 in 264ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 278ms
+[OpenStock][2026-11-14T21:16:27.064Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 890ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 305ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 267ms
+[OpenStock][2026-11-14T21:22:27.205Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1121ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 262ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+[OpenStock][2026-11-14T21:28:27.082Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 901ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 302ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T21:34:27.074Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 952ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 306ms
+ GET /api/signals?symbols=AAPL 200 in 279ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+[OpenStock][2026-11-14T21:40:27.230Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1044ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+ GET /api/signals?symbols=AAPL 200 in 304ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 288ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+[OpenStock][2026-11-14T21:46:27.027Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 926ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 277ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T21:52:27.063Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 887ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 275ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+[OpenStock][2026-11-14T21:58:27.135Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 995ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 293ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 289ms
+ GET /api/signals?symbols=AAPL 200 in 274ms
+[OpenStock][2026-11-14T22:04:27.048Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 875ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 292ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 303ms
+[OpenStock][2026-11-14T22:10:27.024Z] Error fetching candles for AAPL {}
+ GET /api/signals?symbols=AAPL 200 in 1022ms
+ GET /api/signals?symbols=AAPL 200 in 290ms
+ GET /api/signals?symbols=AAPL 200 in 276ms
+ GET /api/signals?symbols=AAPL 200 in 291ms
+ GET /sign-in 200 in 199ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 818ms
+ GET /favicon.ico?favicon.0d8d4eae.ico 200 in 1079ms

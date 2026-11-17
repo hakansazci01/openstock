@@ -1,0 +1,138 @@
+
+> Openstock@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.28 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.21.96.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled middleware in 223ms
+ ✓ Ready in 999ms
+ ○ Compiling /stocks/[symbol] ...
+(node:16312) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ Compiled /stocks/[symbol] in 2.9s
+MongoDB: Custom DNS settings applied
+MongoDB: Custom DNS settings applied
+❌ Nodemailer transporter verification failed: [Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ffacd0b85a97d-498369a3fd2sm1683810f8f.52 - gsmtp] {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. For more information, go to\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ffacd0b85a97d-498369a3fd2sm1683810f8f.52 - gsmtp',
+  responseCode: 534,
+  permanent: true,
+  command: 'AUTH PLAIN'
+}
+Error fetching quote for META Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching quote for META Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+ POST /stocks/META 200 in 4148ms
+ POST /stocks/META 200 in 4149ms
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 619ms
+MongoDB Connected mongodb://***@127.0.0.1:27017/openstock?authSource=admin in development
+ GET /sign-in 307 in 5634ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 562ms
+ GET /dashboard 200 in 735ms
+ ○ Compiling /watchlist ...
+ ✓ Compiled /watchlist in 511ms
+getNews error: Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+getNews error: Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+ GET /watchlist 200 in 207ms
+ GET /watchlist 200 in 997ms
+Error fetching profile for META Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getCompanyProfile (lib\actions\finnhub.actions.ts:200:16)
+    at async StockHeader (components\stocks\StockHeader.tsx:59:46)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+Error fetching stock metrics for META Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getStockMetrics (lib\actions\finnhub.actions.ts:215:22)
+    at async DividendYield (app\(root)\stocks\[symbol]\page.tsx:31:27)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+ POST /stocks/META 200 in 98ms
+ GET /stocks/META 200 in 273ms
+ POST /stocks/META 200 in 54ms
+MongoDB: Custom DNS settings applied
+ POST /stocks/META 200 in 151ms
+MongoDB: Custom DNS settings applied
+ POST /stocks/META 200 in 57ms
+MongoDB: Custom DNS settings applied
+ POST /stocks/META 200 in 72ms
+ POST /stocks/META 200 in 76ms
+MongoDB: Custom DNS settings applied
+Error fetching quote for META Error: Fetch failed 401: {"error":"Invalid API key"}
+    at <unknown> (lib\actions\finnhub.actions.ts:120:23)
+    at async withSlot (lib\actions\finnhub.actions.ts:87:16)
+    at async getQuote (lib\actions\finnhub.actions.ts:180:16)
+    at async getLiveQuotes (lib\actions\finnhub.actions.ts:190:20)
+  118 |             if (!res.ok) {
+  119 |                 const text = await res.text().catch(() => '');
+> 120 |                 throw new Error(`Fetch failed ${res.status}: ${text}`);
+      |                       ^
+  121 |             }
+  122 |             return (await res.json()) as T;
+  123 |         }).finally(() => inFlight.delete(url));
+MongoDB: Custom DNS settings applied
+ POST /stocks/META 200 in 647ms
+❌ Nodemailer transporter verification failed: [Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ffacd0b85a97d-498362eb158sm1652131f8f.36 - gsmtp] {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. For more information, go to\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ffacd0b85a97d-498362eb158sm1652131f8f.36 - gsmtp',
+  responseCode: 534,
+  permanent: true,
+  command: 'AUTH PLAIN'
+}
